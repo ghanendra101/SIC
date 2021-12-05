@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="app.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+</head>
+<body>
+<div class="app">
+    <h1 id="appname"> Simple Interest Calculator</h1>
+    <div class="subapp">
+        <h2>Principle Amount:</h2>
+        <input type="number" id="pamm" name="pamm" class="part">
+        <h2>Rate:</h2>
+        <input type="number" id="rate" name="rate" class="part">
+        <h2>Time:</h2>
+        <input type="number" id="time" name="time" class="part">
+        <button type="button" onclick=sic()>Calculate</button>
+        <button type="button" onclick=reset()>reset</button>
+   </div>
+</div>
+<p id="do"></p>
+
+</body>
+<script src="app.js"></script>
+</html>

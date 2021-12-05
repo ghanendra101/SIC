@@ -1,0 +1,15 @@
+#appname{
+    font-size: 40px;
+    color: rgb(161, 10, 10);
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: chartreuse;
+}
+.subapp{
+    margin-left: 40%;margin-top: 0%;}
+    div{
+        margin-left: 6%;
+    }
