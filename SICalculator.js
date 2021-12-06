@@ -4,9 +4,7 @@ function sic()
     let r = document.getElementById("rate").value;
     let t = document.getElementById("time").value;
     let res=document.getElementById("do");
-    if(pa=="" || r=="" || t=="")
-    alert("Please add valid numbers");
-  res.innerHTML="The result is" + (pa*t*r/100);
+    res.innerHTML="The result is" + (pa*t*r/100);
 }
 function reset()
 {
